@@ -1,3 +1,44 @@
 body {
-    background-color: aqua;
+    height: 100vh;
+    font-family: 'Baloo 2';
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    margin: 0 5px;
+}
+
+.info-text__value {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.button {
+    width: 50%;
+    height: 20%;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Baloo 2';
+    background-color: #1DD4D2;
+    border-radius: 10px;
 }
